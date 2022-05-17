@@ -56,7 +56,7 @@ function sendtext(){
 
     $.ajax({
         type: 'POST',
-        url: 'http://dev.stedi.me/twofactorlogin/'+phonenumber,
+        url: 'https://dev.stedi.me/twofactorlogin/'+phonenumber,
         contentType: 'application/text',
         dataType: 'text'
     })
