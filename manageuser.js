@@ -64,7 +64,7 @@ function sendtext(){
 
 function userlogin(){
     setuserpassword();
-    //setusernam00e();
+    //setusername();
     $.ajax({
         type: 'POST',
         url: '/login',
